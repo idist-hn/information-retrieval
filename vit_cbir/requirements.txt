@@ -1,0 +1,8 @@
+tensorflow>=2.8,<2.13
+vit-keras>=0.1.2
+numpy>=1.21
+scipy>=1.7
+scikit-learn>=1.0
+Pillow>=9.0
+tqdm>=4.62
+matplotlib>=3.5
