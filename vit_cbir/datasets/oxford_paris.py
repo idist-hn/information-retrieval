@@ -14,7 +14,7 @@ Paris6K:
 Expected structure:
     data/oxford5k/
         images/         ← all .jpg images
-        gt/             ← *_query.txt, *_good.txt, *_ok.txt, *_junk.txt
+        ground_truth/   ← *_query.txt, *_good.txt, *_ok.txt, *_junk.txt
 
 Ground truth protocol:
   - relevant = good ∪ ok
@@ -43,17 +43,17 @@ def load(data_dir: str, dataset: str = "oxford5k"):
     """
     data_dir = Path(data_dir)
     img_dir = data_dir / "images"
-    gt_dir = data_dir / "gt"
+    ground_truth_dir = data_dir / "ground_truth"
 
     if not img_dir.exists():
         raise FileNotFoundError(f"Images directory not found: {img_dir}")
-    if not gt_dir.exists():
-        raise FileNotFoundError(f"GT directory not found: {gt_dir}")
+    if not ground_truth_dir.exists():
+        raise FileNotFoundError(f"Ground truth directory not found: {ground_truth_dir}")
 
     all_paths = sorted(glob.glob(str(img_dir / "*.jpg")))
     stem_to_idx = {Path(p).stem: i for i, p in enumerate(all_paths)}
 
-    query_files = sorted(glob.glob(str(gt_dir / "*_query.txt")))
+    query_files = sorted(glob.glob(str(ground_truth_dir / "*_query.txt")))
 
     query_indices = []
     query_rois = []

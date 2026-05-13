@@ -1,0 +1,1 @@
+/Volumes/Works/Idist/courses/truy-xuat-thong-tin/btl/vit_cbir/data/oxford5k/ground_truth/all_souls_5_query.txt

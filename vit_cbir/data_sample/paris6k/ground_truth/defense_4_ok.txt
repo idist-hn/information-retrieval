@@ -1,0 +1,1 @@
+/Volumes/Works/Idist/courses/truy-xuat-thong-tin/btl/vit_cbir/data/paris6k/ground_truth/defense_4_ok.txt
