@@ -1,4 +1,4 @@
-# Báo cáo Demo — ViT CBIR System
+# Báo cáo Demo — ViT Content-Based Image Retrieval System
 
 **Đề tài:** Investigating the Vision Transformer Model for Image Retrieval Tasks  
 **Paper:** arXiv:2101.03771  

@@ -1,4 +1,4 @@
-# Bảng Phân Công Công Việc — ViT CBIR
+# Bảng Phân Công Công Việc — ViT CBIR - Content-Based Image Retrieval
 
 **Đề tài:** Investigating the Vision Transformer Model for Image Retrieval Tasks (arXiv:2101.03771)
 **Môn học:** Truy xuất thông tin
